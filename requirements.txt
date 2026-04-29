@@ -1,0 +1,34 @@
+# 核心依赖
+langchain>=0.1.10
+langchain-openai>=0.0.8
+langchain-community>=0.0.25
+streamlit>=1.31.0
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# 数据处理
+pandas>=2.2.0
+numpy>=1.26.0
+sqlalchemy>=2.0.25
+
+# 工具库
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# 可选：更多LLM支持
+openai>=1.12.0
+anthropic>=0.19.0
+
+# 增强版功能依赖
+plotly>=5.18.0           # 数据可视化
+websockets>=12.0        # WebSocket实时推送
+reportlab>=4.0.0        # PDF报告生成
+xlsxwriter>=3.1.0       # Excel导出
+schedule>=1.2.0         # 定时任务
+celery>=5.3.0           # 异步任务队列
+redis>=5.0.0            # 分布式缓存
+prometheus-client>=0.19.0  # 性能监控
